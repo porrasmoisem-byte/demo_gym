@@ -848,6 +848,9 @@ h1, h2, h3, h4, .outline-text {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 992px) {
+    .section-benefits {
+        background-attachment: scroll;
+    }
     .benefits-grid {
         grid-template-columns: repeat(2, 1fr);
     }
