@@ -190,12 +190,12 @@ h1, h2, h3, h4, .outline-text {
     align-items: center; /* Centrar para evitar cortes */
     justify-content: center;
     padding-top: 150px; /* Evita que el menú superponga el texto */
-    padding-bottom: 80px; 
+    padding-bottom: 120px; 
     overflow: hidden;
     background-color: #030303;
     background-image: radial-gradient(circle at center, rgba(0,0,0,0) 0%, rgba(3,3,3,0.8) 100%), url('hero.jpg');
-    background-position: center center, center top;
-    background-size: cover, contain;
+    background-position: center center, center center;
+    background-size: cover, cover;
     background-repeat: no-repeat, no-repeat;
 }
 
